@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetControl.DomainCore\BudgetControl.DomainCore.csproj" />
+    <ProjectReference Include="..\BudgetControl.Infra.Data\BudgetControl.Infra.Data.csproj" />
+    <ProjectReference Include="..\BudgetControl.Infra.Repository\BudgetControl.Infra.Repository.csproj" />
+    <ProjectReference Include="..\BudgetContron.Domain\BudgetControl.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

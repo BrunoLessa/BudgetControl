@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetControl.DomainCore\BudgetControl.DomainCore.csproj" />
+    <ProjectReference Include="..\BudgetControl.Infra.CrossCutting.Adapter\BudgetControl.Infra.CrossCutting.Adapter.csproj" />
+    <ProjectReference Include="..\BudgetControl.Infra.Repository\BudgetControl.Infra.Repository.csproj" />
+    <ProjectReference Include="..\BudgetControl.Services\BudgetControl.Services.csproj" />
+    <ProjectReference Include="..\BugetControl.Application.DTO\BugetControl.Application.DTO.csproj" />
+    <ProjectReference Include="..\BugetControl.Application\BugetControl.Application.csproj" />
+  </ItemGroup>
+
+</Project>

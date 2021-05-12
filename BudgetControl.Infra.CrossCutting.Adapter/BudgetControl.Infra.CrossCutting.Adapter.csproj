@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetContron.Domain\BudgetControl.Domain.csproj" />
+    <ProjectReference Include="..\BugetControl.Application.DTO\BugetControl.Application.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
